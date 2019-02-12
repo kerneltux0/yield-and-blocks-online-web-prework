@@ -1,8 +1,8 @@
-def hello_t(names)
+def hello_t(array)
   if block_given?
     i = 0
-    while i < names.size
-      yield(names[i])
+    while i < array.size
+      yield(array[i])
       i = i + 1
     end
     names
