@@ -11,8 +11,3 @@ def hello_t(array)
   end
 end
 
-#hello_t(names) do |names|
-  #if names.start_with?("T")
-    #puts "Hi, #{names}"
-  #end
-#end
