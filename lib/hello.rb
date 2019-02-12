@@ -11,8 +11,8 @@ def hello_t(names)
   end
 end
 
-hello_t(name) do |name|
-  if name.start_with?("T")
-    puts "Hi, #{name}"
+hello_t(names) do |names|
+  if names.start_with?("T")
+    puts "Hi, #{names}"
   end
 end
